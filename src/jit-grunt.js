@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 const PREFIXES = ['', 'grunt-', 'grunt-contrib-'];
-const EXTENSIONS = ['.coffee', '.js'];
+const EXTENSIONS = ['.cjs', '.coffee', '.js'];
 
 const jit = {
   pluginsRoot: 'node_modules',
